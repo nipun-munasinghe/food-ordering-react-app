@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import Burger from "../../Assets/Food_Assets/assets/hero/heroImg.jpg";
+import Burger from "../../Assets/Food_Assets/assets/hero/heroImg.png";
 import { Link } from 'react-router-dom';
 
 function Section1() {
@@ -9,12 +9,12 @@ function Section1() {
         <Container>
             <Row>
                 <Col lg={7} className='mb-5 mb-lg-0'>
-                    <div className='position:relative'>
+                    <div className='position-relative'>
                         <img src={Burger} className='img-fluid' alt="Hero" />
-                        <div className='prive_badge'>
+                        <div className='price_badge'>
                             <div className='badge_text'>
                                 <h4 className='h4_xs'>Only</h4>
-                                <h4 className='h3_lg'>Rs.330/=</h4>
+                                <h4 className='h3_lg'>Rs.560/=</h4>
                             </div>
                         </div>
                     </div>
