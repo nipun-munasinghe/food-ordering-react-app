@@ -54,8 +54,15 @@
 }
 
 .hero_section .hero_text p {
-    padding: 0 5%;
+    /* padding: 0 5%; */
     font-size: 1.25rem;
     line-height: 1.5;
     margin-bottom: 30px;
+}
+
+/* Responsive part */
+@media (max-width: 767px) {
+    .hero_section .hero_text h1 {
+        font-size: 5.5rem;
+    }
 }

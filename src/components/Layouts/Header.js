@@ -1,10 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Container, Nav, Navbar} from 'react-bootstrap';
 import "../../styles/Header.css";
 import { Link } from 'react-router-dom';
 import Logo from '../../Assets/Food_Assets/assets/logo/logo.png';
 
 function Header() {
+  const [nav, setNav] = useState();
+
+  //scroll navbar
+  
+
   return (
     <header>
       <Navbar collapseOnSelect expand="lg">
