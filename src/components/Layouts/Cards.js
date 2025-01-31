@@ -14,7 +14,7 @@ function Cards({image, rating, title, paragraph, price}) {
                 <div className='d-flex align-items-center justify-content-between'>
                     <div className='item_rating'>{rating}</div>
                     <div className='wishlist'>
-                    <i class="bi bi-bookmark-heart"></i>
+                        <i class="bi bi-bookmark-heart"></i>
                     </div>
                 </div>
 

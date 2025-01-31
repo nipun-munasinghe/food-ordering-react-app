@@ -11,7 +11,7 @@ function Section3() {
             <Row>
                 <Col lg={{span:8, offset:2}} className='text-center mb-5'>
                     <h2>Our Delicious Burgers</h2>
-                    <p>
+                    <p className='para'>
                         Savor the taste of our burgers, expertly crafted 
                         with rich, bold flavors to delight your palate 
                         in every bite.
@@ -37,7 +37,7 @@ function Section3() {
                 <Col sm={6} lg={5}>
                     <div className='ads_box ads_img1 mb-5 mb-md-0'>
                         <h4 className='mb-0'>Get Your Free</h4>
-                        <h5>Cheese Fries</h5>
+                        <h5>Chocolate Fries</h5>
                         <Link to='/' className='btn btn_green px-4 rounded-0'>
                             Learn More
                         </Link>
@@ -45,9 +45,9 @@ function Section3() {
                 </Col>
 
                 <Col sm={6} lg={7}>
-                    <div className='ads_box ads_img'>
+                    <div className='ads_box ads_img2'>
                         <h4 className='mb-0'>Get Your Free</h4>
-                        <h5>Cheese Fries</h5>
+                        <h5>Cheese Burger</h5>
                         <Link to='/' className='btn btn_green px-4 rounded-0'>
                             Learn More
                         </Link>
