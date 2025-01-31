@@ -171,12 +171,12 @@ const mockData = [
   {
     image: Pizza,
     title: "Original",
-    paragraph: `Porta semper lacus cursus, feugiat primis ultrice a ligula risus auctor an tempus feugiat dolor lacinia cubilia curae integer orci congue and metus integer primis in integer metus`,
+    paragraph: `Experience the authentic taste of our handcrafted burgers made with fresh ingredients and a perfect blend of flavors. Every bite delivers a rich, juicy, and satisfying taste that keeps you coming back for more.`,
   },
   {
     image: Salad,
-    title: "Qualty Foods",
-    paragraph: `Porta semper lacus cursus, feugiat primis ultrice a ligula risus auctor an tempus feugiat dolor lacinia cubilia curae integer orci congue and metus integer primis in integer metus`,
+    title: "Quality Foods",
+    paragraph: `We believe in serving only the finest quality food, made from farm-fresh ingredients and expertly crafted recipes. Our commitment to excellence ensures a delicious and wholesome dining experience in every meal.`,
   },
   {
     image: Delivery,

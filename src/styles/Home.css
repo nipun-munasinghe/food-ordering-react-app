@@ -62,7 +62,7 @@
 }
 
 .hero_section .hero_text .order_now {
-    color: var(--light-black);
+  color: var(--light-black);
   background-color: var(--yellow);
   border-color: var(--yellow);
   padding: 12px 30px;
@@ -76,10 +76,33 @@
 }
 
 .hero_section .hero_text .order_now:hover {
-    color: var(--white);
+  color: var(--white);
   border-color: var(--white);
   background: transparent;
 }
+
+/* Section 2 - About */
+.about_section .order_now {
+    color: var(--white);
+    background-color: var(--light-green);
+    border-color: var(--light-green);
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: var(--oswald-font);
+    vertical-align: middle;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .about_section .order_now:hover {
+      color: var(--light-green);
+      border-color: var(--light-green);
+      background: transparent;
+    }
+
+
 
 /* Responsive part */
 @media (max-width: 767px) {
