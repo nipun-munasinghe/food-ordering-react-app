@@ -4,6 +4,26 @@ import menu from '../../data/menu.json';
 import Cards from '../../components/Layouts/Cards';
 import { Link } from 'react-router-dom';
 
+//Ratings logical data
+const renderRatingIcons = (rating) => {
+    const stars=[];
+
+    for(let i=0; i<5; i++) {
+        if(rating > 0.5) {
+            stars.push(<i key={i} className="bi bi-star-fill"></i>)
+            rating--;
+        }
+        else if(rating > 0 && rating < 1) {
+            stars.push(<i key={"half"} className="bi bi-star-half"></i>)
+            rating--;
+        }
+        else {
+            stars.push(<i key={`empty${i}`} className="bi bi-star"></i>)
+        }
+    }
+    return stars;
+};
+
 function Section3() {
   return (
     <section className='menu_section'>
@@ -28,7 +48,7 @@ function Section3() {
                         title={cardData.title}
                         paragraph={cardData.paragraph}
                         price={cardData.price}
-                        // renderRatingIcons={renderRatingIcons}
+                        renderRatingIcons={renderRatingIcons}
                     />
                 ))}
             </Row>
