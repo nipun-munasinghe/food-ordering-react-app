@@ -9,9 +9,14 @@ function Section3() {
     <section className='menu_section'>
         <Container>
             <Row>
-                <Col lg={{span:8, offset:2}}></Col>
-                <h2>Our Delicious Burgers</h2>
-                <p>Savory burgers crafted with rich flavors</p>
+                <Col lg={{span:8, offset:2}} className='text-center mb-5'>
+                    <h2>Our Delicious Burgers</h2>
+                    <p>
+                        Savor the taste of our burgers, expertly crafted 
+                        with rich, bold flavors to delight your palate 
+                        in every bite.
+                    </p>
+                </Col>
             </Row>
 
             <Row>
