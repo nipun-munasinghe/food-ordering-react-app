@@ -286,6 +286,11 @@
     .hero_section .hero_text h1 {
         font-size: 5.5rem;
     }
+
+    /* section 3 */
+    .menu_section .para {
+        padding: 10px 0;
+    }
 }
 
 @media (max-width: 992px) {
