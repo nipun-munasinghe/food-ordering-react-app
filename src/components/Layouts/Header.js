@@ -28,7 +28,9 @@ const Header = () => {
               <img src={Logo} alt="Logo" className="img-fluid" />
             </Link>
           </Navbar.Brand>
+
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link as={Link} to="/">
