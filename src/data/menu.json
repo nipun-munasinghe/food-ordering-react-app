@@ -1,0 +1,98 @@
+[
+    {
+      "id": 1,
+      "image": "/menu/burger-11.jpg",
+      "title": "Classic Cheeseburger",
+      "paragraph": "Juicy grilled beef patty with melted cheese, lettuce, tomato, and pickles.",
+      "rating": 4.5,
+      "price": 950.00
+    },
+    {
+      "id": 2,
+      "image": "/menu/burger-12.jpg",
+      "title": "Spicy Chicken Burger",
+      "paragraph": "Crispy fried chicken breast with spicy sauce, lettuce, and mayo.",
+      "rating": 4.6,
+      "price": 1050.00
+    },
+    {
+      "id": 3,
+      "image": "/menu/burger-13.jpg",
+      "title": "Veggie Burger",
+      "paragraph": "A delicious plant-based patty with fresh vegetables and special sauce.",
+      "rating": 4.3,
+      "price": 850.00
+    },
+    {
+      "id": 4,
+      "image": "/menu/burger-14.jpg",
+      "title": "Double Cheese Burger",
+      "paragraph": "Two beef patties stacked with double layers of cheese and fresh toppings.",
+      "rating": 4.7,
+      "price": 1200.00
+    },
+    {
+      "id": 5,
+      "image": "/menu/burger-15.jpg",
+      "title": "Grilled Chicken Burger",
+      "paragraph": "Tender grilled chicken breast with honey mustard sauce and fresh greens.",
+      "rating": 4.4,
+      "price": 1100.00
+    },
+    {
+      "id": 6,
+      "image": "/menu/burger-16.jpg",
+      "title": "BBQ Burger",
+      "paragraph": "Smoky BBQ sauce with grilled beef, crispy onion rings, and cheddar cheese.",
+      "rating": 4.6,
+      "price": 1100.00
+    },
+    {
+      "id": 7,
+      "image": "/menu/burger-17.jpg",
+      "title": "Mushroom Swiss Burger",
+      "paragraph": "Sautéed mushrooms and Swiss cheese melted over a juicy beef patty.",
+      "rating": 4.5,
+      "price": 1150.00
+    },
+    {
+      "id": 8,
+      "image": "/menu/burger-18.jpg",
+      "title": "Fish Burger",
+      "paragraph": "Crispy battered fish fillet with tartar sauce and lettuce on a toasted bun.",
+      "rating": 4.3,
+      "price": 950.00
+    },
+    {
+      "id": 9,
+      "image": "/menu/burger-19.jpg",
+      "title": "Zinger Burger",
+      "paragraph": "Crispy spicy fried chicken fillet with potato chips and fresh lettuce.",
+      "rating": 4.7,
+      "price": 1100.00
+    },
+    {
+      "id": 10,
+      "image": "/menu/burger-20.jpg",
+      "title": "Peri Peri Chicken Burger",
+      "paragraph": "Spicy peri peri marinated chicken breast with crunchy lettuce.",
+      "rating": 4.6,
+      "price": 1050.00
+    },
+    {
+      "id": 11,
+      "image": "/menu/burger-21.jpg",
+      "title": "Tandoori Burger",
+      "paragraph": "Grilled chicken with tandoori spices and a tangy yogurt sauce.",
+      "rating": 4.5,
+      "price": 1150.00
+    },
+    {
+      "id": 12,
+      "image": "/menu/burger-22.jpg",
+      "title": "Cheesy Chicken Burger",
+      "paragraph": "Melted cheese over a crispy fried chicken fillet with creamy dressing.",
+      "rating": 4.6,
+      "price": 1000.00
+    }
+]  
