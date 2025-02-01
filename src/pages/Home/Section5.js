@@ -74,6 +74,16 @@ function Section5() {
                                             alt='brand-4' 
                                         />
                                     </div>
+                                </div>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                            <Carousel.Caption>
+                                <div className='d-flex 
+                                                align-items-center 
+                                                justify-content-between'
+                                >
                                     <div className='brand_img'>
                                         <img 
                                             src={Brand5} className='img-fluid' 

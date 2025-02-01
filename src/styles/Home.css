@@ -366,10 +366,6 @@
     left: unset;
 }
 
-.brand_section .carousel-indicators {
-    display: none;
-}
-
 /* Section6 - Blog section */
 .blog_section {
     padding: 80px 0 50px;
