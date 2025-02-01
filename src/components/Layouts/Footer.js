@@ -1,9 +1,12 @@
 import React from 'react';
+import { Container, Row, Col } from "react-bootstrap";
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <footer>
+      
+    </footer>
   )
 }
 
-export default Footer
+export default Footer;
