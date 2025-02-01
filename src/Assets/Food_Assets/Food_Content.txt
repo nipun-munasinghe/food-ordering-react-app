@@ -45,21 +45,24 @@ Explore Full Menu
 
 === Home Section 3.0 ===
 
-Nothing brings people together like a good burger
+Good times are better with great burgers
 
-Semper lacus cursus porta primis ligula risus tempus and
-                sagittis ipsum mauris lectus laoreet purus ipsum tempor enim
-                ipsum porta justo integer ultrice aligula lectus aenean magna
-                and pulvinar purus at pretium gravida
+    Juicy, flavourful burgers bring people closer, 
+    creating moments filled with laughter, joy, and 
+    deliciousness. Share the taste, share the love.
 
-Fringilla risus, luctus mauris orci auctor purus euismod
-                    pretium purus pretium ligula rutrum tempor sapien
+Savor the joy of perfectly crafted burgers, 
+where every ingredient is blended to deliver 
+unmatched taste and satisfaction.
 
 
-Quaerat sodales sapien euismod purus blandit
+Experience the richness of flavors in every bite, 
+as our burgers are made to please every craving 
+with perfection.
 
-Nemo ipsam egestas volute turpis dolores ut aliquam quaerat
-                    sodales sapien undo pretium a purus mauris
+Indulge in a symphony of flavors, where every 
+burger tells a story of quality, taste, and 
+culinary expertise.
 
 
 
@@ -181,7 +184,7 @@ const mockData = [
   {
     image: Delivery,
     title: "Fastest Delivery",
-    paragraph: `Porta semper lacus cursus, feugiat primis ultrice a ligula risus auctor an tempus feugiat dolor lacinia cubilia curae integer orci congue and metus integer primis in integer metus`,
+    paragraph: `Enjoy your favorite burgers and meals delivered hot and fresh straight to your doorstep. With our efficient delivery service, you can satisfy your cravings in no time, anytime and anywhere.`,
   },
   // Add more mock data objects as needed
 ];
