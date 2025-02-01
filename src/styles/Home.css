@@ -366,6 +366,10 @@
     left: unset;
 }
 
+.brand_section .carousel-indicators {
+    display: none;
+}
+
 /* Responsive part */
 @media (max-width: 767px) {
     /* home section1 */
