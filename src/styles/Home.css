@@ -301,6 +301,16 @@
     padding-left: 15px;
 }
 
+/* Parallax scroll styles in promotion section4 */
+.bg_parallax_scroll {
+    background: url('../Assets/Food_Assets/assets/parallax/parallax.jpg')
+                no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
+}
+
 /* Responsive part */
 @media (max-width: 767px) {
     /* home section1 */
@@ -326,5 +336,19 @@
 
     .about_box p {
         padding: 0;
+    }
+
+    /* Parallax scroll */
+    .bg_parallax_scroll {
+        background-attachment: scroll;
+        height: 500px;
+    }
+}
+
+@media (max-width: 1200px) {
+    /* Promotion section */
+    .promotion_section h2 {
+        font-size: 2.25rem;
+        text-align: center;
     }
 }
