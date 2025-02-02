@@ -72,7 +72,6 @@ header .nav-link:hover {
 header .cart {
     position: relative;
     top: -0.4375rem;
-    color: var(--white);
 }
 
 header .cart:hover {
