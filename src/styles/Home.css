@@ -491,18 +491,22 @@ footer ul li i {
 
 footer ul li .bi-facebook:hover {
     color: blue;
+    transition: all 0.15s ease-in-out;
 }
 
 footer ul li .bi-instagram:hover {
     color: #e1306c;
+    transition: all 0.15s ease-in-out;
 }
 
 footer ul li .bi-youtube:hover {
     color: red;
+    transition: all 0.15s ease-in-out;
 }
 
 footer ul li .bi-tiktok:hover {
     color: #000;
+    transition: all 0.15s ease-in-out;
 }
 
 footer .copy_right {
