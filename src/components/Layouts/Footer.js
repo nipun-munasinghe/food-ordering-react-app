@@ -94,11 +94,14 @@ function Footer() {
             <Col>
               <div>
                 <ul className='list-unstyled text-center mb-0'>
-                  <li>
-                    <Link to='/'>
-                      <p>&copy; 2025 <span>Burger Bun</span> | All Rights Reserved.</p>
-                    </Link>
-                  </li>
+                <li>
+                  <Link to='/'>
+                    <p>
+                      &copy; {new Date().getFullYear()} <span>Burger Bun</span> | 
+                      All Rights Reserved.
+                    </p>
+                  </Link>
+                </li>
                   <li>
                     <Link to='/'>
                       <p>About Us</p>
