@@ -1,0 +1,327 @@
+food delivery app
+
+=== Google Fonts CDN ===
+
+/* Import Google Fonts (Lilita One, Oswald, Roboto) */
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+
+=== Home Section 1 - Hero ===
+
+Only
+
+Rs.560/=
+
+New Burger
+
+With Chips
+
+Juicy grilled burger served with crispy golden potato chips, 
+delivering a perfect blend of savoury flavours and a satisfying 
+crunch, making every bite a delightful treat for your taste buds.
+
+Order Now
+
+
+
+
+
+=== Home Section 2 - About ===
+
+Burgers taste best when shared with loved ones!
+
+Nothing brings people together like a delicious burger 
+shared with loved ones. The perfect blend of juicy flavours 
+and crispy sides creates moments of joy, laughter, and 
+unforgettable memories at every bite.
+
+Explore The Full Menu
+ 
+
+
+
+=== Home Section 3 - Menu ===
+
+Our Delicious Burgers
+
+Savour the taste of our burgers, expertly 
+crafted with rich, bold flavours to delight 
+your palate in every bite.
+
+
+=== Home Section 4 - Promotion ===
+
+Good times are better with great burgers
+
+    Juicy, flavourful burgers bring people closer, 
+    creating moments filled with laughter, joy, and 
+    deliciousness. Share the taste, share the love.
+
+- Savour the joy of perfectly crafted burgers, 
+where every ingredient is blended to deliver 
+unmatched taste and satisfaction.
+
+
+- Experience the richness of flavours in every bite, 
+as our burgers are made to please every craving 
+with perfection.
+
+- Indulge in a symphony of flavours, where every 
+burger tells a story of quality, taste, and 
+culinary expertise.
+
+
+
+
+=== Home Section 4 - Shop ===
+
+Download mobile App and
+
+save up to 20%
+
+ Get our app now and enjoy exclusive savings of up to 
+ 25% on your favourite meals, anytime, anywhere.
+
+
+
+
+=== Home Section 6 - Blog ===
+
+- "Absolutely delicious! The burgers are juicy, 
+   flavourful, and cooked to perfection. The fresh 
+   ingredients and soft buns make every bite 
+   amazing. The fries are crispy, and the dipping 
+   sauces add a great touch. Highly recommend for 
+   a satisfying meal!"
+
+- "Best burger spot in town! The flavours are 
+  well-balanced, and the patties are always fresh. 
+  The service is quick, and the atmosphere is great 
+  for dining in. The menu offers plenty of variety, 
+  ensuring there's something for everyone to enjoy!"
+
+- "Tried the signature burger, and it exceeded my 
+  expectations! The seasoning was perfect, and the 
+  toppings were fresh. The portion size is great for 
+  the price, and the quality is consistent. Will 
+  definitely be coming back for more!"
+
+- "The taste, texture, and overall experience were 
+  top-notch! The burger was cooked just right, and 
+  the cheese melted perfectly. The crispy fries and 
+  refreshing drinks made the meal even better. A 
+  must-try for burger lovers everywhere!"
+ 
+
+
+
+=== Home Section 7 - Contact ===
+
+We Guarantee
+
+20 Minutes Delivery!
+
+We ensure your order reaches you within 20 
+minutes, delivering fresh and hot meals straight 
+to your doorstep. Our efficient team works 
+tirelessly to provide the fastest service, 
+maintaining quality and taste. With a seamless 
+ordering process and quick dispatch, we prioritize 
+your satisfaction. Enjoy every bite without the wait!
+
+Call: +94 11-222-33-44
+
+
+
+=== Footer Section ===
+
+Location
+
+No 320/A, Business Rd
+
+Colombo 8
+
+Sri Lanka
+
+
+
+Working Hours
+
+Mon-Fri: 9:00AM - 10:00PM
+
+Saturday: 10:00AM - 10:30PM
+
+Sunday: 12:00PM - 9:00PM
+
+
+
+Order Now
+
+Get your delicious meal fast!
+
++94 11-222-33-44
+
+
+
+Follow Us
+
+Stay connected with us!
+
+
+
+© 2025 <span>Burger Bun</span> | All Rights Reserved
+
+
+About Us
+
+Privacy Policy
+
+Terms & Conditions
+
+
+
+/* Root Variables */
+:root {
+  /* Fonts Family */
+  --roboto-font: "Roboto", sans-serif;
+  --lilita-font: "Lilita One", cursive;
+  --oswald-font: "Oswald", sans-serif;
+
+  /* Colors */
+  --light-black: #333;
+  --light-white: #f7f7f7;
+  --light-red: #e3000e;
+  --light-grey: #f6f9fa;
+  --light-grey-2: #dddddd;
+  --white: #fff;
+  --yellow: #f7be27;
+  --grey: #757575;
+  --brown: #6f5e4d;
+  --bg-coffee: #642f21;
+}
+
+// Mock Data Cards
+const mockData = [
+  {
+    image: Pizza,
+    title: "Original",
+    paragraph: `Experience the authentic taste of our handcrafted burgers made with fresh ingredients and a perfect blend of flavours. Every bite delivers a rich, juicy, and satisfying taste that keeps you coming back for more.`,
+  },
+  {
+    image: Salad,
+    title: "Quality Foods",
+    paragraph: `We believe in serving only the finest quality food, made from farm-fresh ingredients and expertly crafted recipes. Our commitment to excellence ensures a delicious and wholesome dining experience in every meal.`,
+  },
+  {
+    image: Delivery,
+    title: "Fastest Delivery",
+    paragraph: `Enjoy your favourite burgers and meals delivered hot and fresh straight to your doorstep. With our efficient delivery service, you can satisfy your cravings in no time, anytime and anywhere.`,
+  },
+];
+
+
+
+
+
+// Menu Cards - menu.json
+[
+    {
+      "id": 1,
+      "image": "/menu/burger-11.jpg",
+      "title": "Classic Cheeseburger",
+      "paragraph": "Juicy grilled beef patty with melted cheese, lettuce, tomato, and pickles.",
+      "rating": 4.5,
+      "price": 950.00
+    },
+    {
+      "id": 2,
+      "image": "/menu/burger-12.jpg",
+      "title": "Spicy Chicken Burger",
+      "paragraph": "Crispy fried chicken breast with spicy sauce, lettuce, and mayo.",
+      "rating": 4.6,
+      "price": 1050.00
+    },
+    {
+      "id": 3,
+      "image": "/menu/burger-13.jpg",
+      "title": "Veggie Burger",
+      "paragraph": "A delicious plant-based patty with fresh vegetables and special sauce.",
+      "rating": 4.3,
+      "price": 850.00
+    },
+    {
+      "id": 4,
+      "image": "/menu/burger-14.jpg",
+      "title": "Double Cheese Burger",
+      "paragraph": "Two beef patties stacked with double layers of cheese and fresh toppings.",
+      "rating": 4.7,
+      "price": 1200.00
+    },
+    {
+      "id": 5,
+      "image": "/menu/burger-15.jpg",
+      "title": "Grilled Chicken Burger",
+      "paragraph": "Tender grilled chicken breast with honey mustard sauce and fresh greens.",
+      "rating": 4.4,
+      "price": 1100.00
+    },
+    {
+      "id": 6,
+      "image": "/menu/burger-16.jpg",
+      "title": "BBQ Burger",
+      "paragraph": "Smoky BBQ sauce with grilled beef, crispy onion rings, and cheddar cheese.",
+      "rating": 4.6,
+      "price": 1100.00
+    },
+    {
+      "id": 7,
+      "image": "/menu/burger-17.jpg",
+      "title": "Mushroom Swiss Burger",
+      "paragraph": "Sautéed mushrooms and Swiss cheese melted over a juicy beef patty.",
+      "rating": 4.5,
+      "price": 1150.00
+    },
+    {
+      "id": 8,
+      "image": "/menu/burger-18.jpg",
+      "title": "Fish Burger",
+      "paragraph": "Crispy battered fish fillet with tartar sauce and lettuce on a toasted bun.",
+      "rating": 4.3,
+      "price": 950.00
+    },
+    {
+      "id": 9,
+      "image": "/menu/burger-19.jpg",
+      "title": "Zinger Burger",
+      "paragraph": "Crispy spicy fried chicken fillet with potato chips and fresh lettuce.",
+      "rating": 4.7,
+      "price": 1100.00
+    },
+    {
+      "id": 10,
+      "image": "/menu/burger-20.jpg",
+      "title": "Peri Peri Chicken Burger",
+      "paragraph": "Spicy peri peri marinated chicken breast with crunchy lettuce.",
+      "rating": 4.6,
+      "price": 1050.00
+    },
+    {
+      "id": 11,
+      "image": "/menu/burger-21.jpg",
+      "title": "Tandoori Burger",
+      "paragraph": "Grilled chicken with tandoori spices and a tangy yogurt sauce.",
+      "rating": 4.5,
+      "price": 1150.00
+    },
+    {
+      "id": 12,
+      "image": "/menu/burger-22.jpg",
+      "title": "Cheesy Chicken Burger",
+      "paragraph": "Melted cheese over a crispy fried chicken fillet with creamy dressing.",
+      "rating": 4.6,
+      "price": 1000.00
+    }
+]
