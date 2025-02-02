@@ -524,6 +524,27 @@ footer .copy_right ul li a {
     color: var(--light-black);
 }
 
+/* Scroll Top */
+.scroll_top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 99;
+    cursor: pointer;
+    width: 2.7rem;
+    height: 2.7rem;
+    line-height: 3rem;
+    text-align: center;
+    background: var(--light-green);
+    border-radius: 100%;
+}
+
+.scroll_top i {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
 /* Responsive part */
 @media (max-width: 767px) {
     /* home section1 */
