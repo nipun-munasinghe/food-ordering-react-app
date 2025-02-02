@@ -159,13 +159,13 @@ Follow Us
 Stay connected with us!
 
 
-© 2023 <span>Burger Bun</span> | All Rights Reserved
+© 2025 <span>Burger Bun</span> | All Rights Reserved
 
 About Us
 
-Terms Of Use
-
 Privacy Policy
+
+Terms & Conditions
 
 
 /* Root Variables */
