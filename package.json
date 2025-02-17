@@ -2,7 +2,7 @@
   "name": "food-ordering-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/nipun-munasinghe/food-ordering-react-app",
+  "homepage": "https://nipun-munasinghe.github.io/food-ordering-react-app",
   "dependencies": {
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
