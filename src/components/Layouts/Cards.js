@@ -7,7 +7,7 @@ function Cards({image, rating, title, paragraph, price, renderRatingIcons}) {
     <Col sm={6} lg={4} xl={3} className='mb-4'>
         <Card className='overflow-hidden'>
             <div className='overflow-hidden'>
-                <Card.Img variant="top" src={image} />
+            <Card.Img variant="top" src={`https://nipun-munasinghe.github.io/food-ordering-react-app/${image}`} />
             </div>
 
             <Card.Body>
