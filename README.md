@@ -1,70 +1,88 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Food Ordering System (React)
 
-## Available Scripts
+A modern and responsive food ordering system built using React and Bootstrap.
 
-In the project directory, you can run:
+## Screenshots
 
-### `npm start`
+![Landing Page](public/landingPage-screenshot.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Fully responsive design  
+- Built with React  
+- Smooth animations and transitions  
+- Dynamic routing with React Router  
+- Styled using Bootstrap
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- Bootstrap
+- React Router
+- CSS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository to your local machine:
+```bash
+git clone https://github.com/nipun-munasinghe/food-ordering-react-app
+```
+2. Navigate to the project directory:
+```bash
+cd food-ordering-react-app
+```
+3. Install and run
+```bash
+npm install
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Learning Experience
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Through this project, I gained valuable experience in building a responsive and dynamic web application using React and Bootstrap. I learned how to efficiently manage components, handle state, and implement smooth page navigation using React Router. Additionally, I enhanced my styling skills with Bootstrap and improved my ability to work with media assets from Freepik, Pixabay, and Pexels. This project also deepened my understanding of integrating UI/UX elements for a seamless user experience.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Acknowledgements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+I would like to express my gratitude to the creators of the amazing resources I used in this project. Special thanks to:
 
-### Code Splitting
+- **Bootstrap** – for providing a responsive and modern design framework.
+- **Freepik, Pixabay, and Pexels** – for offering high-quality images and assets.
+- **React Community** – for extensive documentation and support.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing  
+Contributions are welcome! If you'd like to improve this project, follow these steps:  
 
-### Making a Progressive Web App
+1. **Fork the repository**
+2. **Clone your forked repo** 
+```bash
+git clone https://github.com/nipun-munasinghe/food-ordering-react-app
+```
+3. **Create a new branch**
+```bash
+git checkout -b feature-name
+```
+4. **Make your changes and commit**
+```bash
+git add .
+git commit -m "Added a new feature"
+```
+5. **Push the changes**
+```bash
+git push origin feature-name
+```
+6. **Create a pull request and wait for review!**
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Developer: Nipun Munasinghe
+- LinkedIn: [Nipun Lakmal](https://www.linkedin.com/in/nipun-lakmal-b5b3652bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
+- Email: [nipunlakmal884@gmail.com](mailto:nipunlakmal884@gmail.com)
+- GitHub: [nipun-munasinghe](https://github.com/nipun-munasinghe)
